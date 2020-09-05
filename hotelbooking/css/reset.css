@@ -343,10 +343,6 @@ hr {
 .no_bg{
     background: none;
 }
-img {
-    max-width: 100%;
-    height: auto;
-}
 
 /* ------------------------------------
         end image styles
@@ -400,13 +396,13 @@ h6{
   position: relative;
 }
 .section_title.nice_title > h3::after {
-    background: rgba(0, 0, 0, 0) url("../img/nice-title.png") no-repeat scroll 0 0;
-    bottom: -30%;
-    content: "";
-    height: 50%;
-    left: calc(50% - 51.5px);
-    position: absolute;
-    width: 103px;
+  background: rgba(0, 0, 0, 0) url("../img/nice-title.png") no-repeat scroll 0 0;
+  bottom: -30%;
+  content: "";
+  height: 50%;
+  left: calc(50% - 51.5px);
+  position: absolute;
+  width: 103px;
 }
 .breadcrumb_main.nice_title > h2{
     display: block;

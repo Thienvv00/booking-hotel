@@ -87,7 +87,8 @@ body#home_one .special_offer_dbl_sub, body#home_two .special_offer_dbl_sub, body
 }
 .hotel_facilities_content .nav-tabs > li > a {
   padding: 10px 3px;
-  width: 106px;
+  width: 100px;
+  text-align: center;
 }
 body#home_two .special_offer_main {
   right: calc(0% + -0.2%);
@@ -304,8 +305,9 @@ body#home_one .welcome .left_room_title > p, .accomodation_single_room .left_roo
 }
 .hotel_facilities_content .nav-tabs > li > a {
   width: 80px;
-  padding: 5px;
-  font-size: 11px;
+  padding: 5px; 
+  font-size: 15px;
+  text-align: center;
 }
 .hotel_facilities_content .single-tab-details > h6 {
   margin-bottom: 5px;
@@ -862,9 +864,6 @@ body#home_one .special_offer_main {
 .hotel_facilities_content .nav-tabs > li > a {
   font-size: 12px;
   width: 80px;
-}
-.hotel_facilities .nav.nav-tabs {
-  width: 95.3%;
 }
 .hotel_facilities_content .our_services > a{
     margin-right: 7px;
