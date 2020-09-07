@@ -174,7 +174,28 @@
                         <div role="tabpanel">
     
                             <!-- Nav tabs -->
-                            <ul class="nav nav-tabs" role="tablist">
+                            <div class="row">
+                            <div class=" col-md-5 col-sm-6 col-md-auto rounded border border-dark card" style="width: 300px; border-block-color: black;">
+                                <span class="dot"> <img class="card-img-top circle-image" src="img/avt.JPG"  alt="Card image cap"></span>
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <ul class="list-group list-group-flush"  role="tablist">
+                                  <li role="presentation" class="list-group-item"a href="#pi" aria-controls="restaurant" role="tab" data-toggle="tab"><img
+                                    src="img/personal-information.png"
+                                    alt=""><span>Personal Info</span></a></li>
+                                  <li role="presentation" class="list-group-item"><a href="#sports-club" aria-controls="sports-club" role="tab" data-toggle="tab"><img
+                                    src=""
+                                    alt=""><span>Booking History</span></a></li>
+                                  <li  role="presentation"class="list-group-item"><a href="#pick-up" aria-controls="pick-up" role="tab" data-toggle="tab"><img
+                                    src="" alt=""><span>Credit Card</span></li>
+                                  <li  role="presentation"class="list-group-item"><a href="#bar" aria-controls="bar" role="tab" data-toggle="tab"><img
+                                    src="" alt=""><span>Settings</span></a></li>
+                                </ul>
+                                
+                              </div>
+                            <!--<ul class="nav nav-tabs" role="tablist">
                                 <li role="presentation" class="">
                                     <a href="#pi" aria-controls="restaurant" role="tab" data-toggle="tab"><img
                                             src="img/personal-information.png"
@@ -193,16 +214,17 @@
                                     <a href="#bar" aria-controls="bar" role="tab" data-toggle="tab"><img
                                             src="" alt=""><span>Settings</span></a>
                                 </li>                                
-                            </ul>
+                            </ul>-->
                             
     
                             <!-- Tab panes -->
+                            
                             <div class="tab-content">
                                 <div role="tabpanel" class="tab-pane active" id="pi">
                                     <div class="single-tab-content">
                                         <div class="row">
                                             <div class="col-md-5 col-sm-6 col-md-auto">
-                                                    <a href="#"><img src="img/avt.JPG" style="border-radius: 50%; height: 70%; width: 70%;"  alt=""></a>
+                                                    <a href="#"><img class="circle-image" src="img/avt.JPG" ></a>
                                             </div>
                                             <div class="co-lg-7 col-md-7 col-sm-6">
                                                 Personal Info
@@ -213,34 +235,88 @@
                                 <div role="tabpanel" class="tab-pane" id="sports-club">
                                     <div class="single-tab-content">
                                         <div class="row">
-                                            <div class="co-lg-5 col-md-5">
-                                                <div class="single-tab-image">
-                                                    <a href="#"><img src="img/hotel-facility-three.jpg" alt=""></a>
-                                                </div>
-                                            </div>
-                                            <div class="co-lg-7 col-md-7">
-                                                <div class="single-tab-details">
-                                                    <table class="table table-striped">
-                                                        <thead>
-                                                          <tr>
-                                                            <th scope="col">Hotel</th>
-                                                            <th scope="col">Location</th>
-                                                            <th scope="col">Order Date</th>
-                                                            <th scope="col">Stay Date</th>
-                                                            <th scope="col">Cost</th>
-                                                          </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                          <tr>
-                                                            <th scope="row">Mường Thanh</th>
-                                                            <td>Đà Nẵng</td>
-                                                            <td>01/07/2020</td>
-                                                            <td>01/07/2020-14/07/2020</td>
-                                                            <td>2000$</td>
-                                                          </tr>
-                                                          
-                                                      </table>
-                                                </div>
+                                            
+                                            <div class="co-lg-9 col-md-9">
+                                                <head>
+                                                    <link
+                                                    rel="stylesheet"
+                                                    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+                                                    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+                                                    crossOrigin="anonymous"
+                                                  />
+                                                  </head>
+                                                    
+                                                          <div class="table">
+                                                              <table>
+                                                                <thead>
+                                                                  <tr>
+                                                                    <th>Project name</th>
+                                                                    <th>Contact person</th>
+                                                                    <th>Project lead</th>
+                                                                    <th>Team</th>
+                                                                    <th>Progress</th>
+                                                                    <th>Deadline</th>
+                                                                    <th>Action</th>
+                                                                  </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                  <tr>
+                                                                    <td>
+                                                                      <div class="image-text">
+                                                                        <img src="/images/unicorn.png" alt="">
+                                                                        <span>Rachel</span>
+                                                                      </div>
+                                                                    </td>
+                                                                    <td>Mike wazowski</td>
+                                                                    <td>Mike Dawson</td>
+                                                                    <td>
+                                                                      <div class="image-list">
+                                                                        <img src="/images/outer-space.png" alt="">
+                                                                        <img src="/images/rachelizmarvel.png" alt="">
+                                                                      </div>
+                                                                    </td>
+                                                                    <td>
+                                                                      <div class="progress">
+                                                                        <div class="percent"></div>
+                                                                      </div>
+                                                                    </td>
+                                                                    <td>
+                                                                      <div class="tag">12 days left</div>
+                                                                    </td>
+                                                                    <td>
+                                                                      <i class="fal fa-ellipsis-h action"></i>
+                                                                    </td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td>
+                                                                      <div class="image-text">
+                                                                        <img src="/images/logo.png" alt="">
+                                                                        <span>Evondev</span>
+                                                                      </div>
+                                                                    </td>
+                                                                    <td>Mike wazowski</td>
+                                                                    <td>Mike Dawson</td>
+                                                                    <td>
+                                                                      <div class="image-list">
+                                                                        <img src="/images/outer-space.png" alt="">
+                                                                        <img src="/images/rachelizmarvel.png" alt="">
+                                                                      </div>
+                                                                    </td>
+                                                                    <td>
+                                                                      <div class="progress">
+                                                                        <div class="percent" style="background-color: var(--purple);width: 75%"></div>
+                                                                      </div>
+                                                                    </td>
+                                                                    <td>
+                                                                      <div class="tag">12 days left</div>
+                                                                    </td>
+                                                                    <td>
+                                                                      <i class="fal fa-ellipsis-h action"></i>
+                                                                    </td>
+                                                                  </tr>
+                                                                </tbody>
+                                                              </table>
+                                                            </div>
                                             </div>
                                         </div>
                                     </div>
@@ -283,6 +359,7 @@
                             </div>
     
                         </div>
+                    </div>
                     </div>
             </div>
         </section>
