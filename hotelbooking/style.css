@@ -2356,8 +2356,8 @@ button {
 
 .circle-image {
 	position: relative;
-	margin: 0 auto;
-	margin-top: 1rem;
+	margin: 1rem auto;
+	
 	width: 20rem;
 	height: 20rem;
 	border-radius: 100rem;
