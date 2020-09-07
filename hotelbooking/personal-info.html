@@ -197,17 +197,18 @@
                                 <h5 class="card-title">&emsp;Personal Information</h5>
                             </div>
                             <ul class="list-group list-group-flush" role="tablist">
-                                <li role="presentation" class="list-group-item" a href="#pi" aria-controls="restaurant"
-                                    role="tab" data-toggle="tab"><img src="img/personal-information.png" alt="">&emsp;Personal
+                                <li role="presentation" class="list-group-item" a href="#personal-info"
+                                    aria-controls="personal-info" role="tab" data-toggle="tab"><img
+                                        src="img/personal-information.png" alt="">&emsp;Personal
                                     Information</a></li>
-                                <li role="presentation" class="list-group-item"><a href="#sports-club"
-                                        aria-controls="sports-club" role="tab" data-toggle="tab"><img
+                                <li role="presentation" class="list-group-item"><a href="#booking-history"
+                                        aria-controls="booking-history" role="tab" data-toggle="tab"><img
                                             src="img/booking.png" alt="">&emsp;Booking History</a></li>
-                                <li role="presentation" class="list-group-item"><a href="#pick-up"
-                                        aria-controls="pick-up" role="tab" data-toggle="tab"><img
-                                            src="img/credit-card.png" alt=""><span>&emsp;Credit Card</span></li>
-                                <li role="presentation" class="list-group-item"><a href="#bar" aria-controls="bar"
-                                        role="tab" data-toggle="tab"><img src="img/setting.png"
+                                <li role="presentation" class="list-group-item"><a href="#credit-cards"
+                                        aria-controls="credit-cards" role="tab" data-toggle="tab"><img
+                                            src="img/credit-card.png" alt=""><span>&emsp;Credit Cards</span></li>
+                                <li role="presentation" class="list-group-item"><a href="#settings"
+                                        aria-controls="settings" role="tab" data-toggle="tab"><img src="img/setting.png"
                                             alt=""><span>&emsp;Settings</span></a></li>
                             </ul>
 
@@ -237,7 +238,7 @@
                         <!-- Tab panes -->
 
                         <div class="tab-content">
-                            <div role="tabpanel" class="tab-pane active" id="pi">
+                            <div role="tabpanel" class="tab-pane active" id="personal-info">
                                 <div class="single-tab-content">
                                     <div class="row">
                                         <div class="co-lg-1 col-md-2">
@@ -317,7 +318,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" class="tab-pane" id="sports-club">
+                            <div role="tabpanel" class="tab-pane" id="booking-history">
                                 <div class="single-tab-content">
                                     <div class="row">
 
@@ -371,7 +372,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div role="tabpanel" class="tab-pane" id="pick-up">
+                            <div role="tabpanel" class="tab-pane" id="credit-cards">
                                 <div class="single-tab-content">
                                     <div class="row">
                                         <div class="co-lg-5 col-md-4">
@@ -421,26 +422,150 @@
                                                         alt="">
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="co-lg-5 col-md-4">
-                                            <div class="card2" style="width: 35rem;">
-                                                <button class="btn-primary">Add a new card</button>
+                                        </div>                                        
+                                    </div>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#exampleModalCenter">
+                                    Add a new card
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">Add Credit Card</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form action="">
+                                                    Your Card Number
+                                                    <input type="number" class="form-control"
+                                                        placeholder="Card Number">
+                                                </form>
+                                                <form action="">
+                                                    Valid thru
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Valid Thru">
+                                                </form>
+                                                <form action="">
+                                                    Name
+                                                    <input type="password" class="form-control"
+                                                        placeholder="Name">
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save
+                                                    changes</button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                </div>
                             </div>
-                            <div role="tabpanel" class="tab-pane" id="bar">
+                            <div role="tabpanel" class="tab-pane" id="settings">
                                 <div class="single-tab-content">
                                     <div class="row">
-                                        <div class="co-lg-9 col-md-9">
+                                        <h1
+                                            style="font-weight: bold; font-size: xx-large; text-align: center; margin-bottom: 10px;">
+                                            Change Personal Information</h1>
+                                        <div class="co-lg-5 col-md-4 formtext">
                                             <form action="">
-                                                <h1>adsd</h1>
-                                                <input type="text" class="form-control">
+                                                Name
+                                                <input type="text" class="form-control"
+                                                    placeholder="Cấn Ngọc Quốc Pháp">
                                             </form>
-                                            
+                                            <form action="">
+                                                Phone
+                                                <input type="number" class="form-control" placeholder="0979075225">
+                                            </form>
+                                            <form action="">
+                                                Street Address
+                                                <input type="text" class="form-control" placeholder="408/7 Hùng Vương">
+                                            </form>
+                                            <form action="">
+                                                State/Provine/Region
+                                                <input type="text" class="form-control" placeholder="Thanh Khê">
+                                            </form>
+                                            <form action="">
+                                                Country
+                                                <input type="text" class="form-control" placeholder="Việt Nam">
+                                            </form>
+                                            <button class="btn btn-primary">Save Changes</button>
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                                data-target="#exampleModalCenter1">
+                                                Change Password
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
+                                                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLongTitle">Change
+                                                                your password</h5>
+                                                            <button type="button" class="close" data-dismiss="modal"
+                                                                aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <form action="">
+                                                                Current Password
+                                                                <input type="password" class="form-control"
+                                                                    placeholder="Current Password">
+                                                            </form>
+                                                            <form action="">
+                                                                New Password
+                                                                <input type="password" class="form-control"
+                                                                    placeholder="New Password">
+                                                            </form>
+                                                            <form action="">
+                                                                New Password Again
+                                                                <input type="password" class="form-control"
+                                                                    placeholder="New Password Again">
+                                                            </form>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                data-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-primary">Save
+                                                                changes</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="co-lg-5 col-md-4">
+                                            <form action="">
+                                                Email
+                                                <input type="text" class="form-control"
+                                                    placeholder="phapcan7@gmail.com">
+                                            </form>
+                                            <form action="">
+                                                Home Airport
+                                                <input type="text" class="form-control" placeholder="Da Nang Airport">
+                                            </form>
+                                            <form action="">
+                                                City
+                                                <input type="text" class="form-control" placeholder="Đà Nẵng">
+                                            </form>
+                                            <form action="">
+                                                Postal Code
+                                                <input type="text" class="form-control" placeholder="550000">
+                                            </form>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
 

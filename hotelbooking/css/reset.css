@@ -160,12 +160,12 @@ a.btn.btn-black:hover{
 }
 
 .btn.btn-primary {
-    background: #f7c411 none repeat scroll 0 0;
+    background: #2374ec none repeat scroll 0 0;
     border-radius: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    color: #313a45;
+    color: #fafdff;
     font-family: "Karla",sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -173,6 +173,7 @@ a.btn.btn-black:hover{
     padding: 13px 25px;
     border: none;
     outline: none;
+    margin: 5px;
 }
 .btn.btn-blue{
   background: #2fb3e7;
@@ -187,11 +188,9 @@ a.btn.btn-black:hover{
   color: #2fb3c7;
   border: 1px solid #2fb3c7;
 }
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active {
-    color: #f7c411;
-    background: #000 none repeat scroll 0 0;
+.btn-primary:hover{
+    color: #fafcf9;
+    background: rgb(42, 248, 0) none repeat scroll 0 0;
     border: none;
     outline: none;
 }
@@ -362,7 +361,6 @@ h6 {
     margin: 0;
     font-weight: 400;
     font-family: 'Playfair Display', serif;
-    text-transform: uppercase;
 }
 h1{
     font-size: 48px;
